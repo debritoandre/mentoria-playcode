@@ -1,87 +1,60 @@
 body {
-    background-color: #F2F2F2;
-    
-}
-
-
-.feito:hover {
-    background-color: #52BE80;
-}
-
-.feito {
-    background-color: green;
-    list-style-type: none;
-    height: 150px;
-    text-transform: uppercase;
-    color: #FFFFFF;
     font-family: 'oswald', sans-serif;
-    letter-spacing: 2px;
+}
+ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+    background: #4A4A4A;
+    margin-top: 2px;
+    padding: 30px 40px 30px 100px;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 5px;
-}
-
-
-.a {
-    float: left;
-    height: 40px;
-    padding-left: 28px;
-    padding-top: 55px;
-}
-
-.b {
-    float: left;
-    padding-left: 23px;
-    padding-top: 60px;
-    
-}
-
-.c {
-    height: 30px;
-    float: right;
-    padding-right: 18px;
-    padding-top: 60px;
-    
-}
-
- .pendente {
-    list-style-type: none;
-    background-color: #4A4A4A;
-    height: 150px;
     text-transform: uppercase;
-    color: #FFFFFF;
-    font-family: 'oswald', sans-serif;
-    letter-spacing: 2px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 5px;
+    background-image: url(Images/box.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    background-size: 40px;
 }
 
 
-.pendente:hover {
+li:hover {
     background-color: #616161;
 }
 
 
-.d {
-    float: left;
-    height: 40px;
-    padding-left: 28px;
-    padding-top: 55px;
+a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    background-image: url(Images/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 16.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
 }
 
-.e {
-    float: left;
-    padding-left: 23px;
-    padding-top: 60px;
-    
+
+li.done {
+    list-style-type: none;
+    background: #27AE60;
+    margin-top: 2px;
+    padding: 30px 40px 30px 100px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-image: url(Images/box_checked.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    background-size: 40px;
 }
 
-.f {
-    height: 30px;
-    float: right;
-    padding-right: 18px;
-    padding-top: 60px;
-    
-}
 
+li.done:hover {
+    background-color: #52BE80;
+}
