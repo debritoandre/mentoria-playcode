@@ -1,0 +1,32 @@
+@import url(header_009.css);
+@import url(field_009.css);
+@import url(resumos.css);
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+    font-size: 12px;
+}
+
+.payment {
+    height: 558px;
+    width: 688px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.27106);
+}
+
+.payment header {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+

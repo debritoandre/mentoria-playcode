@@ -1,0 +1,90 @@
+.resumos {
+    width: 45%;
+    background-color: #ebebeb;
+    padding: 10px 10px 10px 10px;
+    border-left: 1px solid #deddde;
+}
+
+.resumos ul {
+    margin: 0;
+    padding: 0
+}
+
+.resumos .produtos li {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #deddde;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.resumos .produtos li:last-child {
+    border: none;
+}
+
+.resumos .produtos .detalhes {
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resumos .produtos img {
+    width: 49px;
+    height: 49px;
+    margin-top: 9px;
+}
+
+.resumos .produtos li .detalhes h3 {
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+    margin-bottom: 3px;
+}
+
+.resumos .produtos li .detalhes small {
+    font-size: 10px;
+    font-family: 'muliregular';
+    color: #4a4a4a;
+    margin-bottom: 3px;
+}
+
+.resumos .produtos li .detalhes span {
+    color: #9c9c9c;
+    font-size: 10px;
+    font-family: 'muliextrabold';    
+}
+
+.resumos .produtos li .preco {
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+    margin-top: 12px;
+}
+
+.resumos table {
+    width: 100%;
+    border-top: 1px solid #d6d4d7;
+    border-spacing: 0;
+    font-size: 12px;
+    color: #777879;
+    margin-top: 87px
+}
+
+.resumos table th {
+    text-align: left;
+    
+}
+
+.resumos table td {
+    text-align: right;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.resumos table tfoot * {
+    border-top: 1px solid #d6d4d7;
+    font-family: 'muliextrabold';
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
