@@ -1,0 +1,82 @@
+body {
+    background-color: #F2F2F2;
+    height: 100vw;
+    font-family: 'Lato', sans-serif;
+}
+
+aside {
+    background-color: #3A3C40;
+    height: 100vw;
+    text-align: center;    
+}
+
+aside img {
+    margin: 0;
+    margin-top: 32px;
+}
+
+aside h1 {
+    color: #F5A623;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
+aside h2 {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;    
+}
+
+aside .button {
+    background-color: #F5A623;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 700;
+    padding: 20px 30px;
+    margin-top: 10px;
+    background: #F5A623;
+    box-shadow: 0px 4px 0px rgba(245, 166, 35, 0.6);
+    border-radius: 3px; 
+    border: none;
+}
+
+aside p {
+    margin-top: 15px;
+}
+
+aside p a {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+aside .bars {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: left;
+    color: #8FA4AF;
+}
+
+aside .bars h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+aside .bars small {
+    color: #8fa4af;
+    font-size: 0.75em;
+}
+
+aside .bars li {
+    margin-bottom: 10px;
+}
+
+aside .bars progress::-webkit-progress-value {    
+    background-color: #EEB65A !important;
+}

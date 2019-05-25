@@ -1,0 +1,60 @@
+article {
+    background-color: #ffffff;
+    height: 100vw;
+    border-right: 1px solid rgba(155, 155, 155, .3)
+}
+
+article .content {
+    color: #666666;
+    font-size: 0.938em;
+    padding: 30px;
+}
+
+article .content h3 {
+    color: #D0021B;
+    font-size: 1.125em;
+    font-weight: 900;
+    margin-top: 10px;
+    border-bottom: 1px solid #D0021B;
+    padding-bottom: 5px;
+}
+
+article .content .double h6 {
+    margin-top: 50px !importatnt;
+}
+
+article .content h6 {
+    color: #666666;
+    font-size: 0.938em; 
+    font-weight: 300;
+    margin: 0;
+}
+
+article .content i {
+    margin-right: 10px;
+}
+
+article .content h4 {
+    font-size: 1.063em;
+    font-weight: 700; 
+    margin-bottom: 5px;
+}
+
+article .content h5 {
+    font-size: 0.938em; 
+     margin-bottom: 10px;
+}
+
+article .content small {
+    font-size: 0.938em; 
+    font-weight: 300;
+    margin-top: 5px;    
+}
+
+article .content .college {
+    text-align: center;
+}
+
+article .content p {
+    text-align: justify;
+}
