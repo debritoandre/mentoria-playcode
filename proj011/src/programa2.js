@@ -16,3 +16,6 @@ https://www.w3schools.com/jsref/met_win_alert.asp
     Coletar o nome do usuário e mostrar concatenado com a frase, exibindo 
     Bom dia Bia, caso o nome informado seja Bia.
 *******************************************************************************/
+var nome;
+      nome = prompt("Qual é seu nome?", "Bia");
+      alert("Bom dia, " + nome);
