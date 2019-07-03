@@ -6,10 +6,16 @@
 		"Temperatura positiva"
 *******************************************************************************/
 
+function termostato(temperatura) {
 
+	if (temperatura >= 0) {
 
-
-
+		return "Temperatura positiva";
+	}
+	else {
+		return "Temperatura negativa";
+	}
+}
 
 
 /*******************************************************************************
@@ -21,10 +27,23 @@
 		aprovação é 60%.
 *******************************************************************************/
 
+function boletimEscolar(nota) {
 
+	if (nota < 0 || nota > 10) {
 
+		return 'Nota inválida';
+	}
+	else {
 
+		if (nota > 5) {
 
+			return 'Aprovado';
+		}
+		else {
+			return 'Reprovado';
+		}
+	}
+}
 
 
 /*******************************************************************************
@@ -38,10 +57,24 @@
 		- Outros -> 35,90
 *******************************************************************************/
 
+function calcularFrete(estado) {
 
+	if ( estado == 'MG') {
 
+		return 12.50;
+	}
+	if ( estado == 'SP') {
 
+		return 23.90;
+	}
+	if ( estado == 'RJ') {
 
+		return 18.20;
+	}
+	else {
+		return 35.90;
+	}
+}
 
 
 /*******************************************************************************
@@ -53,10 +86,21 @@
 		- mais de um 1,85 -> "joga basquete?"
 *******************************************************************************/
 
+function calcularAltura(altura) {
 
+	if ( altura <= 1.6 ) {
 
+		return 'baixinho';
+	}
+	if ( altura > 1.6 && altura <= 1.85 ) {
 
+		return 'altura normal';
+	}
+	if ( altura > 1.85 ) {
 
+		return 'joga basquete?';
+	}
+}
 
 
 /*******************************************************************************
@@ -65,3 +109,15 @@
 		retorna a mensagem "Login efetuado com sucesso", senão, retorna a mensagem
 		"Senha inválida".
 *******************************************************************************/
+
+function validarSenha(senha) {
+
+	if ( senha == 123456) {
+
+		return "Login efetuado com sucesso";
+	}
+	else {
+
+		return "Senha inválida";
+	}
+}
