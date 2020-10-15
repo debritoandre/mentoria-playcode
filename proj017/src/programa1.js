@@ -15,11 +15,23 @@
 
 *******************************************************************************/
 
+class Motor {
+	constructor(cilindradas, combustivel) {
+		this.cilindradas = cilindradas;
+		this.combustivel = combustivel;
 
+	}
 
+	ligar() {
+		return `Motor ${this.cilindradas} cilindradas a ${this.combustivel} está ligado`
 
+	}
 
+	desligar() {
+		return `Motor ${this.cilindradas} cilindradas a ${this.combustivel} está desligado`
 
+	}
+}
 
 
 /*******************************************************************************
@@ -44,10 +56,25 @@
 		
 *******************************************************************************/
 
+class Calculadora {
+	constructor(numero1, numero2) {
+		this.numero1 = numero1;
+		this.numero2 = numero2;
+	}
 
-
-
-
+	somar() {
+		return this.numero1 + this.numero2;
+	}
+	subtrair() {
+		return this.numero1 - this.numero2;
+	}
+	multiplicar() {
+		return this.numero1 * this.numero2;
+	}
+	dividir() {
+		return this.numero1 / this.numero2;
+	}
+}
 
 
 /*******************************************************************************
@@ -77,12 +104,21 @@
 
 *******************************************************************************/
 
+class Calendario {
+	static nomeDias() {
+		return ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
 
+	}
+	static diaSemana(data) {
 
-
-
-
-
+		const dia = data.split("/")[0];
+		const mes = data.split("/")[1];
+		const ano = data.split("/")[2];
+	
+		return `${mes}/${dia}/${ano}`;
+		
+	}
+}
 
 
 /*******************************************************************************
