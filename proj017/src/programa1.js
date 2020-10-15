@@ -111,11 +111,15 @@ class Calendario {
 	}
 	static diaSemana(data) {
 
+		/*
 		const dia = data.split("/")[0];
 		const mes = data.split("/")[1];
 		const ano = data.split("/")[2];
-	
-		return `${mes}/${dia}/${ano}`;
+		*/
+
+		const [dia, mes,ano] = data.split('/');
+		const date = new Date(`${mes}/${dia}/${ano}`);
+		return this.nomeDias()[date.getDay()];
 		
 	}
 }
@@ -141,11 +145,12 @@ class Calendario {
 
 *******************************************************************************/
 
+class CalendarioIngles extends Calendario {
 
-
-
-
-
+	static nomeDias(){
+		return ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+	}
+}
 
 
 /*******************************************************************************
@@ -160,4 +165,19 @@ class Calendario {
 		
 *******************************************************************************/
 
+class Agenda {
 
+	contatos = [];
+
+	adicionaContato(nome, telefone) {
+		const novoContato = { nome,telefone};
+		this.contatos.push(novoContato)
+		
+	}
+
+	listaContatos() {
+
+		return this.contatos;
+
+	}
+}
